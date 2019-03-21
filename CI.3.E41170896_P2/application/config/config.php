@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost:8080/tokobuah';
+$config['base_url'] = 'http://localhost:8080/htdocs/CI.3.E41170896_P2';
 
 /*
 |--------------------------------------------------------------------------
