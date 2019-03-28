@@ -36,7 +36,7 @@
       </button>
 
       <!-- Navbar Search -->
-      <!-- <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
+      <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
         <div class="input-group">
           <input type="text" class="form-control" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
           <div class="input-group-append">
@@ -45,10 +45,10 @@
             </button>
           </div>
         </div>
-      </form> -->
+      </form>
 
       <!-- Navbar -->
-     <!--  <ul class="navbar-nav ml-auto ml-md-0">
+      <ul class="navbar-nav ml-auto ml-md-0">
         <li class="nav-item dropdown no-arrow mx-1">
           <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="fas fa-bell fa-fw"></i>
@@ -88,13 +88,10 @@
 
     </nav>
 
-    <div id="wrapper"> -->
-      <?php 
-        $this->load->view('admin/_Partials/navbar');
-       ?>
+    <div id="wrapper">
 
       <!-- Sidebar -->
-      <!-- <ul class="sidebar navbar-nav">
+      <ul class="sidebar navbar-nav">
         <li class="nav-item active">
           <a class="nav-link" href="index.html">
             <i class="fas fa-fw fa-tachometer-alt"></i>
@@ -131,21 +128,15 @@
 
       <div id="content-wrapper">
 
-        <div class="container-fluid"> --> 
-          <?php
-          $this->load->view('admin/_Partials/sidebar');
-           ?>
+        <div class="container-fluid">
 
           <!-- Breadcrumbs-->
-          <!-- <ol class="breadcrumb">
+          <ol class="breadcrumb">
             <li class="breadcrumb-item">
               <a href="#">Dashboard</a>
             </li>
             <li class="breadcrumb-item active">Overview</li>
-          </ol> -->
-          <?php
-            $this->load->view('admin/_Partials/breadcrumbs')
-            ?>
+          </ol>
 
           <!-- Icon Cards-->
           <div class="row">
@@ -737,13 +728,12 @@
     <!-- /#wrapper -->
 
     <!-- Scroll to Top Button-->
-    <!-- <a class="scroll-to-top rounded" href="#page-top">
+    <a class="scroll-to-top rounded" href="#page-top">
       <i class="fas fa-angle-up"></i>
-    </a> -->
-
+    </a>
 
     <!-- Logout Modal-->
-    <!-- <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
@@ -759,10 +749,7 @@
           </div>
         </div>
       </div>
-    </div> -->
-    <?php
-    $this->load->view('admin/_Partials/modal'); 
-    ?>
+    </div>
 
   <!-- Bootstrap core JavaScript-->
   <script src="<?php echo base_url('assets/jquery/jquery.min.js') ?>"></script>
